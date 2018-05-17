@@ -122,27 +122,27 @@ void BDT_resolvedTopTagger::Init(std::string weight_file_name){
   TMVAReader_->AddVariable("var_b_ptD",&var_b_ptD);
   TMVAReader_->AddVariable("var_b_axis1",&var_b_axis1);
   TMVAReader_->AddVariable("var_b_mult",&var_b_mult);
-  TMVAReader_->AddVariable("var_b_csv",&var_b_csv);
-  TMVAReader_->AddVariable("var_b_cvsb",&var_b_cvsb);
-  TMVAReader_->AddVariable("var_b_cvsl",&var_b_cvsl);
+  TMVAReader_->AddVariable("var_b_deepcsv_bvsall",&var_b_csv);
+  TMVAReader_->AddVariable("var_b_deepcsv_cvsb",&var_b_cvsb);
+  TMVAReader_->AddVariable("var_b_deepcsv_cvsl",&var_b_cvsl);
 
   TMVAReader_->AddVariable("var_wj1_pt",&var_wj1_pt);
   TMVAReader_->AddVariable("var_wj1_mass",&var_wj1_mass);
   TMVAReader_->AddVariable("var_wj1_ptD",&var_wj1_ptD);
   TMVAReader_->AddVariable("var_wj1_axis1",&var_wj1_axis1);
   TMVAReader_->AddVariable("var_wj1_mult",&var_wj1_mult);
-  TMVAReader_->AddVariable("var_wj1_csv",&var_wj1_csv);
-  TMVAReader_->AddVariable("var_wj1_cvsb",&var_wj1_cvsb);
-  TMVAReader_->AddVariable("var_wj1_cvsl",&var_wj1_cvsl);
+  TMVAReader_->AddVariable("var_wj1_deepcsv_bvsall",&var_wj1_csv);
+  TMVAReader_->AddVariable("var_wj1_deepcsv_cvsb",&var_wj1_cvsb);
+  TMVAReader_->AddVariable("var_wj1_deepcsv_cvsl",&var_wj1_cvsl);
 
   TMVAReader_->AddVariable("var_wj2_pt",&var_wj2_pt);
   TMVAReader_->AddVariable("var_wj2_mass",&var_wj2_mass);
   TMVAReader_->AddVariable("var_wj2_ptD",&var_wj2_ptD);
   TMVAReader_->AddVariable("var_wj2_axis1",&var_wj2_axis1);
   TMVAReader_->AddVariable("var_wj2_mult",&var_wj2_mult);
-  TMVAReader_->AddVariable("var_wj2_csv",&var_wj2_csv);
-  TMVAReader_->AddVariable("var_wj2_cvsb",&var_wj2_cvsb);
-  TMVAReader_->AddVariable("var_wj2_cvsl",&var_wj2_cvsl);
+  TMVAReader_->AddVariable("var_wj2_deepcsv_bvsall",&var_wj2_csv);
+  TMVAReader_->AddVariable("var_wj2_deepcsv_cvsb",&var_wj2_cvsb);
+  TMVAReader_->AddVariable("var_wj2_deepcsv_cvsl",&var_wj2_cvsl);
 
   TMVAReader_->AddVariable("var_b_wj1_deltaR",&var_b_wj1_deltaR);
   TMVAReader_->AddVariable("var_b_wj1_mass",&var_b_wj1_mass);

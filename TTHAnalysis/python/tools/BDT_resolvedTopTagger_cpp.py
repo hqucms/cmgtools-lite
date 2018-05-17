@@ -62,7 +62,7 @@ class BDT_resolvedTopTagger: # has to run on a recleaner with label _Recl
 
             if good:
                 self.run.clear()
-                for i, j in enumerate(jets): self.run.addJet(j.pt * jetcorr[i], j.eta, j.phi, j.mass, j.btagDeepCSV, j.ctagCsvL, j.ctagCsvB, j.ptd, j.axis1, j.mult)
+                for i, j in enumerate(jets): self.run.addJet(j.pt * jetcorr[i], j.eta, j.phi, j.mass, j.btagDeepCSV, j.btagDeepCSVCvsL, j.btagDeepCSVCsvB, j.ptd, j.axis1, j.mult)
                 res = self.run.EvalMVA()
 
             for i,x in enumerate(res): out["BDT_resolvedTopTagger_%s"%self.branches[i]+self.systsJEC[var]] = res[i]
